@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hawi Terfessa · creative developer</title>
+  <!-- different fonts: poppins & playfair -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <!-- Font awesome 6 free -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="#hero">H.T.</a>
+      </div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero" class="nav-link active-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Works</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <!-- no theme toggle – different from original -->
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero section – using first section style but different -->
+  <section id="hero" class="hero">
+    <div class="hero-container">
+      <div class="hero-content fade-in-up">
+        <h1>Hawi Terfessa <span class="typed-container"></span></h1>
+        <p class="hero-sub"><span class="name-curl">Hawi</span> — I'm a curious mind who loves turning ideas into clean digital experiences. I focus on front-end development and creative problem-solving, always learning and building things that feel good to use.</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn primary-btn">view work</a>
+          <a href="#contact" class="btn outline-btn">say hello</a>
+        </div>
+      </div>
+      <div class="hero-portrait fade-in-left">
+        <div class="portrait-caption">
+          <span class="caption-dot"></span>
+          <span class="caption-text">building with intention</span>
+          <span class="caption-dot"></span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-organic"></div>
+  </section>
+
+  <!-- about section -->
+  <section id="about" class="about section alt-bg">
+    <div class="container">
+      <h2 class="section-title">about me</h2>
+      <div class="about-grid">
+        <div class="about-img scroll-fade">
+          <img src="https://images.unsplash.com/photo-1529333320936-e2193f4e3b32?w=400&auto=format&fit=crop&q=60"
+               alt="Hawi working">
+        </div>
+        <div class="about-text scroll-fade">
+          <p class="lead">I like making things that live on the internet.</p>
+          <p>I started coding three years ago by accident — I wanted to customize my blog theme. That curiosity grew into learning HTML, CSS, and now JavaScript. I enjoy the process of turning a blank page into something functional and friendly.</p>
+          <p><strong>Currently:</strong> I'm in my second year of university, studying information science. I spend my free time building small web projects, helping classmates with coding, and reading design blogs.</p>
+          <div class="badge-group">
+            <span class="badge">✦ detail oriented</span>
+            <span class="badge">✦ lifelong learner</span>
+            <span class="badge">✦ tea addict</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- services / craft -->
+  <section id="services" class="services section">
+    <div class="container">
+      <h2 class="section-title">what i do</h2>
+      <div class="services-grid">
+        <div class="service-card scroll-fade">
+          <i class="fas fa-code accent-icon"></i>
+          <h3>HTML & CSS</h3>
+          <p>Semantic, responsive layouts with attention to typography and spacing. I make things look clean on any screen.</p>
+        </div>
+        <div class="service-card scroll-fade">
+          <i class="fas fa-mobile-alt accent-icon"></i>
+          <h3>JavaScript</h3>
+          <p>Interactive elements, form validation, and simple DOM manipulation. Building functionality step by step.</p>
+        </div>
+        <div class="service-card scroll-fade">
+          <i class="fas fa-paint-brush accent-icon"></i>
+          <h3>content design</h3>
+          <p>Creating simple graphics for web, basic Canva designs, and organizing information in a clear way.</p>
+        </div>
+        <div class="service-card scroll-fade">
+          <i class="fas fa-file-alt accent-icon"></i>
+          <h3>technical writing</h3>
+          <p>Documentation, README files, and explaining code concepts in plain language for beginners.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills – different style: tags + minimal bars -->
+  <section id="skills" class="skills section alt-bg">
+    <div class="container">
+      <h2 class="section-title">skills & tools</h2>
+      <div class="skills-grid">
+        <div class="skill-item scroll-fade">
+          <div class="skill-label"><span>HTML5</span><span class="skill-percent">90%</span></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="90"></div></div>
+        </div>
+        <div class="skill-item scroll-fade">
+          <div class="skill-label"><span>CSS3 / flexbox/grid</span><span class="skill-percent">85%</span></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85"></div></div>
+        </div>
+        <div class="skill-item scroll-fade">
+          <div class="skill-label"><span>JavaScript (basics)</span><span class="skill-percent">70%</span></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="70"></div></div>
+        </div>
+        <div class="skill-item scroll-fade">
+          <div class="skill-label"><span>Canva / visual</span><span class="skill-percent">80%</span></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80"></div></div>
+        </div>
+      </div>
+      <div class="skill-tags">
+        <span class="tag">figma (learning)</span>
+        <span class="tag">responsive design</span>
+        <span class="tag">problem solving</span>
+        <span class="tag">github basics</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- projects -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <h2 class="section-title">recent projects</h2>
+      <div class="projects-grid">
+        <div class="project-card scroll-fade">
+          <div class="project-accent"></div>
+          <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=400&auto=format&fit=crop&q=60" alt="recipe blog">
+          <div class="project-overlay">
+            <h3>ethiopian recipes</h3>
+            <p>A simple recipe blog with traditional dishes – built with HTML, CSS, and a little JS for filtering.</p>
+          </div>
+        </div>
+        <div class="project-card scroll-fade">
+          <div class="project-accent"></div>
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&auto=format&fit=crop&q=60" alt="todo app">
+          <div class="project-overlay">
+            <h3>daily planner</h3>
+            <p>A minimal to-do app using local storage. Helps me practice DOM manipulation and events.</p>
+          </div>
+        </div>
+        <div class="project-card scroll-fade">
+          <div class="project-accent"></div>
+          <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&auto=format&fit=crop&q=60" alt="portfolio">
+          <div class="project-overlay">
+            <h3>portfolio v1</h3>
+            <p>My first portfolio website – a one-pager to showcase my early work and experiments.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" class="contact section alt-bg">
+    <div class="container">
+      <h2 class="section-title">get in touch</h2>
+      <div class="contact-grid">
+        <div class="contact-info scroll-fade">
+          <p class="contact-intro">I'm currently looking for internship opportunities and small freelance projects. Feel free to reach out – I usually reply within 24 hours.</p>
+          <div class="contact-details">
+            <p><i class="fas fa-envelope accent-icon"></i> hawi.t@email.com</p>
+            <p><i class="fas fa-phone-alt accent-icon"></i> +251 912 345 678</p>
+            <p><i class="fas fa-map-marker-alt accent-icon"></i> Addis Ababa, Ethiopia</p>
+          </div>
+          <span class="badge">open to work</span>
+        </div>
+        <form class="contact-form scroll-fade" id="contactForm">
+          <input type="text" placeholder="your name" required>
+          <input type="email" placeholder="email address" required>
+          <textarea rows="5" placeholder="tell me about your project..." required></textarea>
+          <button type="submit" class="btn primary-btn">send message</button>
+        </form>
+      </div>
+    </div>
+    <footer class="site-footer">
+      <p>© 2026 Hawi Terfessa — made with curiosity <span class="footer-rose">✦</span></p>
+    </footer>
+  </section>
+
+  <!-- external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
